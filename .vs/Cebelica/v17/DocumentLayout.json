@@ -3,63 +3,63 @@
   "WorkspaceRootPath": "C:\\Work\\Cebelica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\shared\\_productspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\shared\\_productspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\shared\\_productspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|c:\\work\\cebelica\\dbcontext\\cebelicadatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|C:\\Work\\Cebelica\\dbcontext\\cebelicadatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F5FF93-5BE2-4150-8C95-AD33CFB7089F}|Cebelica.csproj|solutionrelative:dbcontext\\cebelicadatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -82,8 +82,7 @@
               "RelativeToolTip": "Views\\Contact\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T13:09:53.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:09:53.117Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "Controllers\\ContactController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T13:09:38.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:09:38.784Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "Views\\About\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T13:08:39.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:08:39.698Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "Controllers\\AboutController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T13:07:16.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:07:16.47Z"
             },
             {
               "$type": "Document",
@@ -134,8 +130,7 @@
               "RelativeToolTip": "Views\\Products\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T11:25:37.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T11:25:37.222Z"
             },
             {
               "$type": "Document",
@@ -147,8 +142,7 @@
               "RelativeToolTip": "Models\\ProductsModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T11:25:31.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T11:25:31.497Z"
             },
             {
               "$type": "Document",
@@ -160,25 +154,24 @@
               "RelativeToolTip": "DbContext\\CebelicaDatabase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T11:25:26.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T11:25:26.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\Cebelica\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Work\\Cebelica\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-08T11:22:43.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\Cebelica\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
@@ -199,8 +192,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T13:13:35.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:13:35.469Z"
             },
             {
               "$type": "Document",
@@ -212,8 +204,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T12:36:53.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T12:36:53.44Z"
             },
             {
               "$type": "Document",
@@ -225,8 +216,7 @@
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T11:26:27.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T11:26:27.668Z"
             },
             {
               "$type": "Document",
@@ -238,8 +228,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T12:28:46.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T12:28:46.774Z"
             },
             {
               "$type": "Document",
@@ -251,8 +240,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T13:06:01.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:06:01.324Z"
             },
             {
               "$type": "Document",
@@ -264,8 +252,7 @@
               "RelativeToolTip": "Views\\Shared\\_ProductsPartialView.cshtml",
               "ViewState": "AQIAAAEAAAAAAAAAAAAYwBMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T12:34:07.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T12:34:07.133Z"
             }
           ]
         }

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Internal;
 public class CebelicaDatabase : DbContext
 {
     public DbSet<ProductsModel> Products { get; set; }
+    public DbSet<UserModel> Users { get; set; }
 
     public CebelicaDatabase(DbContextOptions<CebelicaDatabase> options)
     : base(options)

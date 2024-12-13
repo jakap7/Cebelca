@@ -510,3 +510,4 @@ C:\Work\Cebelica\obj\Debug\net8.0\scopedcss\projectbundle\Cebelica.bundle.scp.cs
 C:\Work\Cebelica\obj\Debug\net8.0\Cebelica.csproj.Up2Date
 C:\Work\Cebelica\obj\Debug\net8.0\Cebelica.genruntimeconfig.cache
 C:\Work\Cebelica\obj\Debug\net8.0\ref\Cebelica.dll
+C:\Work\Cebelica\obj\Debug\net8.0\Cebelica.sourcelink.json
