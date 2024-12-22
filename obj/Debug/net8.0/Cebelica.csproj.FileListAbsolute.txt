@@ -511,3 +511,4 @@ C:\Work\Cebelica\obj\Debug\net8.0\Cebelica.csproj.Up2Date
 C:\Work\Cebelica\obj\Debug\net8.0\Cebelica.genruntimeconfig.cache
 C:\Work\Cebelica\obj\Debug\net8.0\ref\Cebelica.dll
 C:\Work\Cebelica\obj\Debug\net8.0\Cebelica.sourcelink.json
+C:\Work\Cebelica\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -8,6 +8,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<CebelicaDatabase>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddAuthentication("Cookies").AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+        options.Cookie.Name = "UserAuthCookie";
+    });
+
 
 var app = builder.Build();
 
@@ -25,6 +32,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllerRoute(
     name: "default",

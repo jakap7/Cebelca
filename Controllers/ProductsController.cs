@@ -1,4 +1,5 @@
 ﻿using Cebelica.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,12 +30,14 @@ namespace Cebelica.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Admin")]
         // GET: Products/Create
         public ActionResult Create()
         {
             return View();
         }
 
+        [Authorize(Roles = "Admin")]
         // POST: Products/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
