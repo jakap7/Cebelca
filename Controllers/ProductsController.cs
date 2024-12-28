@@ -19,6 +19,10 @@ namespace Cebelica.Controllers
         // GET: Products
         public ActionResult Index()
         {
+            if (!User.IsInRole("Admin"))
+            {
+                return RedirectToAction("Index", "Home");
+            }
             var products = _context.Products.Where(product => product.IsActive);
 
             return View(products);
@@ -30,14 +34,12 @@ namespace Cebelica.Controllers
             return View();
         }
 
-        [Authorize(Roles = "Admin")]
         // GET: Products/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        [Authorize(Roles = "Admin")]
         // POST: Products/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -64,16 +66,39 @@ namespace Cebelica.Controllers
         // GET: Products/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            ProductsModel product;
+
+            product = _context.Products.FirstOrDefault(x => x.Id == id);
+
+            return View(product);
         }
 
         // POST: Products/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(ProductsModel product, IFormFile Picture)
         {
+            ProductsModel productToEdit = _context.Products.FirstOrDefault(x => x.Id == product.Id);
+            //productToEdit.PicturePath = Picture;
+            productToEdit.Price = product.Price;
+            productToEdit.Description = product.Description;
+            productToEdit.Name = product.Name;
+
+            if (Picture != null && Picture.Length > 0)
+            {
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", Picture.FileName);
+                using (FileStream stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await Picture.CopyToAsync(stream);
+                }
+                productToEdit.PicturePath = "/images/" + Picture.FileName;
+            }
+
+            
+
             try
             {
+                _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             catch

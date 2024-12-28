@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6gGTS3Jzgf3V8sfavR7aWbCIvLXwmcH005AMzRr3Ie0=",
+  "Hash": "qH11j4LEpjGfxXHQQLlk/D8u4UpBHKCdjvu1MVy+2I0=",
   "Source": "Cebelica",
   "BasePath": "_content/Cebelica",
   "Mode": "Default",
@@ -1212,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Work\\Cebelica\\wwwroot\\videos\\PlaceholderHoney.mp4",
+      "SourceId": "Cebelica",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Cebelica\\wwwroot\\",
+      "BasePath": "_content/Cebelica",
+      "RelativePath": "videos/PlaceholderHoney.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\PlaceholderHoney.mp4"
     }
   ]
 }

@@ -22,8 +22,8 @@ namespace Cebelica.Controllers
 
         public IActionResult Index()
         {
-            var products = _context.Products.Where(p => p.IsActive).ToList(); // Or apply any filtering if needed
-            return View(products); // Pass the products model to the view
+            var products = _context.Products.Where(p => p.IsActive).ToList(); // Products passed to home/index for partial view!
+            return View(products);
         }
 
         public IActionResult Privacy()

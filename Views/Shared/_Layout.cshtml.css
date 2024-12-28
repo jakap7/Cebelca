@@ -1,48 +1,91 @@
-﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
+﻿/* Navbar Brand */
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #5A4638; /* Dark brown text */
 }
 
+    a.navbar-brand:hover {
+        color: #DAA520; /* Golden hover effect */
+    }
+
+/* Links */
 a {
-  color: #0077cc;
+    color: #DAA520; /* Golden links */
+    text-decoration: none;
 }
 
+    a:hover {
+        color: #FFB84D; /* Honey yellow on hover */
+        text-decoration: underline;
+    }
+
+/* Buttons */
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #5A4638; /* Dark brown text */
+    background-color: #FFB84D; /* Honey yellow background */
+    border-color: #DAA520; /* Golden border */
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    .btn-primary:hover {
+        background-color: #FF9933; /* Darker honey yellow on hover */
+        border-color: #B8860B; /* Deep golden brown border */
+    }
+
+/* Nav Pills */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #FFF; /* White text */
+    background-color: #FFB84D; /* Honey yellow background */
+    border-color: #DAA520; /* Golden border */
 }
 
+/* Borders */
 .border-top {
-  border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #FFD700; /* Golden border */
 }
+
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #FFD700; /* Golden border */
 }
 
+/* Box Shadow */
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1); /* Softer shadow */
 }
 
+/* Accept Policy Button */
 button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
+    color: #5A4638; /* Dark brown text */
+    background-color: #FFB84D; /* Honey yellow */
+    border: 1px solid #DAA520; /* Golden border */
 }
 
+    button.accept-policy:hover {
+        background-color: #FF9933; /* Darker honey yellow on hover */
+        border-color: #B8860B; /* Deep golden brown border */
+    }
+
+
+/* Footer */
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    background-color: #FFD700; /* Golden background */
+    color: #5A4638; /* Dark brown text */
+    text-align: center; /* Center the text */
+    line-height: 60px; /* Adjust line height */
+    padding: 10px 0;
+    width: 100%; /* Ensure it spans the full width */
+    position: relative;
+    bottom: 0; /* This makes the footer appear at the bottom of the page */
 }
+
+    .footer a {
+        color: #5A4638; /* Dark brown links */
+    }
+
+        .footer a:hover {
+            color: #FFB84D; /* Honey yellow on hover */
+        }

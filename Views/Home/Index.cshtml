@@ -5,33 +5,27 @@
 <div class="text-center">
     <h1 class="display-4">Urabnova Čebelica</h1>
     <p>
-        Magari kratek video na loopu -> 20 sec cca.
-
         Urbanova Čebelca iz Ribn'ce doma, medek pobira skrbno nabira da Jaka za posladkat se ma.
     </p>
 </div>
 
-<section>
+<div>
+    <video width="720" height="480" autoplay muted loop style="display: block; margin: 0 auto">
+        <source src="/videos/PlaceholderHoney.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="text-center">
     <p>
         Malo poveš o medu, s kje je kaj je. Več o tem na About us.
     </p>
-</section>
+</div>
 
 
-<section>
+<div class="text-center">
     <h2>Poglejte, poglejte, s čim se naš Urban ukvarja:</h2>
     @await Html.PartialAsync("_ProductsPartialView", (IEnumerable<Cebelica.Models.ProductsModel>)Model)
-</section>
+</div>
 
 
 
-<footer>
-    <div class="footer-content">
-        <p>© 2024 Urbanova Čebelica</p>
-        <ul>
-            <li><a href="Home/Privacy">Privacy Policy</a></li>
-            <li><a href="Home/TermsConditions">Terms & Conditions</a></li>
-            <li><a href="https://www.instagram.com/urbanovacebelica">Instagram</a></li>
-        </ul>
-    </div>
-</footer>
