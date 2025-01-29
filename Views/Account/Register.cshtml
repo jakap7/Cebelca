@@ -1,0 +1,8 @@
+﻿@using (Html.BeginForm("Register", "Account", FormMethod.Post))
+{
+    <label>Username:</label>
+    @Html.TextBox("username")
+    <label>Password:</label>
+    @Html.TextBox("password")
+    <button type="submit">Register</button>
+}

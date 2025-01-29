@@ -2,6 +2,10 @@
     ViewData["Title"] = "Home Page";
 }
 
+<div>
+    Cookies accepted: @(ViewBag.CookiesAccepted ? "Yes" : "No")
+</div>
+
 <div class="text-center">
     <h1 class="display-4">Urabnova Čebelica</h1>
     <p>
@@ -25,6 +29,10 @@
 <div class="text-center">
     <h2>Poglejte, poglejte, s čim se naš Urban ukvarja:</h2>
     @await Html.PartialAsync("_ProductsPartialView", (IEnumerable<Cebelica.Models.ProductsModel>)Model)
+</div>
+
+<div class="text-center">
+    <p> Vas zanima nakup? Kontaktirajte nas na.... </p>
 </div>
 
 

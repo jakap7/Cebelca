@@ -1,0 +1,31 @@
+﻿@{
+    var cookieAccepted = Context.Request.Cookies["CookieConsent"];
+}
+
+@if (string.IsNullOrEmpty(cookieAccepted))
+{
+    <div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #ffd700; padding: 10px; text-align: center; z-index: 1000;">
+        <span>This website uses cookies to enhance your experience. By continuing, you accept our <a href="/Home/Privacy">Privacy Policy</a>.</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; padding: 5px 10px; background: #000; color: #fff; border: none;">Accept</button>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            document.cookie = "CookieConsent=Accepted; path=/; max-age=" + (60 * 60 * 24 * 365);
+            document.getElementById('cookie-banner').style.display = 'none';
+            location.reload();
+        }
+    </script>
+}
+
+@if (ViewBag.CookiesAccepted == true)
+{
+    <button onclick="deleteCookies()" style="margin-left: 10px; padding: 5px 10px; background: #ff0000; color: #fff; border: none;">Revoke Consent</button>
+
+    <script>
+        function deleteCookies() {
+            document.cookie = "CookieConsent=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+            location.reload(); // Refresh the page to apply changes
+        }
+    </script>
+}

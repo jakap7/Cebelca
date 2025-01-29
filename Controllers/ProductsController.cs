@@ -110,7 +110,20 @@ namespace Cebelica.Controllers
         // GET: Products/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            try
+            {
+                ProductsModel productToDelete = _context.Products.FirstOrDefault(x => x.Id == id);
+                productToDelete.IsActive = false;
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+
+            catch
+
+            {
+                return RedirectToAction(nameof(Index));
+            }
+
         }
 
         // POST: Products/Delete/5

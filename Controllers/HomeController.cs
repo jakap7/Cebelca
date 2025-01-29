@@ -22,11 +22,27 @@ namespace Cebelica.Controllers
 
         public IActionResult Index()
         {
+
+            var cookieConsent = HttpContext.Request.Cookies["CookieConsent"];
+            if (cookieConsent != null && cookieConsent == "Accepted")
+            {
+                ViewBag.CookiesAccepted = true;
+            }
+            else
+            { 
+                ViewBag.CookiesAccepted = false;
+            }
+
             var products = _context.Products.Where(p => p.IsActive).ToList(); // Products passed to home/index for partial view!
             return View(products);
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Terms()
         {
             return View();
         }
