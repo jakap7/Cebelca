@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cebelica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+038c1a0dfc6db7f09016cc453e3b559a24d14e69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68226429dd26ca56d5cfb8077021b768fd83e945")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cebelica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cebelica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,38 @@
+﻿@model Cebelica.Models.OrderModel
+
+<h2>Place an Order</h2>
+
+@using (Html.BeginForm("PlaceOrder", "Order", FormMethod.Post))
+{
+    foreach (var product in ViewBag.Products)
+    {
+        <div style="border: 1px solid #ddd; padding: 15px; margin-bottom: 10px;">
+            <h3>@product.Name</h3>
+            <img src="@product.PicturePath" alt="@product.Name" style="width: 150px; height: auto;" />
+            <p>Price: €@product.Price</p>
+
+            <label for="Quantities[@product.Id]">Quantity:</label>
+            <input type="number" name="Quantities[@product.Id]" min="0" value="0" required />
+
+            <br /><br />
+        </div>
+    }
+
+    <label for="Email">Email:</label>
+    <input type="email" name="Email" required />
+    <br />
+    <br />
+
+    <label for="Address">Naslov:</label>
+    <input type="text" name="Address" required />
+    <br />
+    <br />
+
+    <label for="Contact">Telefonska Številka:</label>
+    <input type="text" name="Contact" required />
+
+    <br />
+    <br />
+
+    <button type="submit">Submit Order</button>
+}
